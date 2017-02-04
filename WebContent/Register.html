@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="js/register.js"></script>
+<meta charset="ISO-8859-1">
+<title>New Registration</title>
+
+<style>
+	.mystyle{
+		
+	}
+</style>
+</head>
+<body>
+	
+	<div style="background-color:White">
+		<img src="CSPL-Logojpg.jpg" class="img-rounded" style="width:250px;height:75px">
+		<marquee><font size="5px" color="Red">Welcome to Cybage Book Review Management System</font></marquee>
+	</div>	
+	
+	<div style="background-color:White" class="col-xs-4" >
+	<br>
+	<form name="registerForm" onsubmit="return validateForm()"
+			method="post" style="background-color: White">
+	
+  	<div class="form-horizontal">
+    	<font color="Black">First Name:</font>
+    	<input type="text" class="form-control" id="fname" name="firstName">
+  	</div>
+  	<div class="form-horizontal">
+    	<font color="Black">Last Name:</font>
+    	<input type="text" class="form-control" id="lname" name="lastName">
+  	</div>
+  	<div class="form-horizontal">
+    	<font color="Black">Password:</font>
+    	<input type="password" class="form-control" id="pwd" name="password" >
+  	</div>
+  	<div class="form-horizontal">
+    	<font color="Black">Confirm Password:</font>
+    	<input type="password" class="form-control" id="rePassword" name="rePassword">
+  	</div>
+  	<div class="form-horizontal">
+    	<font color="Black">User Id:</font>
+    	<input type="text" class="form-control" id="email" name="userId">
+  	</div>
+  	<div class="form-horizontal">
+    	<font color="Black">Phone No:</font>
+    	<input type="text" class="form-control" id="phone" name="phone"><br>
+  	</div>
+  	<div class="form-horizontal">
+  	<button type="submit" class="btn btn-info" formaction="./register">Register</button><br><br>
+	</div>
+	</form>
+  	</div>
+	
+	<div>
+		<img src="reg.jpg">
+	</div>
+	
+</body>
+</html>
